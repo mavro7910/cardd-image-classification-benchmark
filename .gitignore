@@ -20,3 +20,17 @@ rad.json
 *.flf
 #Test results file
 TestResults.xml
+
+
+# ============================
+# Project-specific ignores
+# ============================
+data/
+__pycache__/
+.ipynb_checkpoints/
+*.log
+
+
+# Model weights
+models/*.pth
+models/*.pt
